@@ -12,7 +12,7 @@
     <header>
 
         <div class="header-site">
-            <img src="img/logo.png" class="img-logo">
+           
 
             <div class="barra-pesquisa">
                 <label for="input-pesquisa" class="img-pesquisa" >
@@ -21,7 +21,7 @@
             </div>
 
          </div>
-      <?php echo "oioi"; ?>
+     
 
     </header>
 
