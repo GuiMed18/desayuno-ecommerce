@@ -3,42 +3,17 @@
     padding:0;
     border:0;
 }
-.header-site{   
-    position: absolute;    
-    width: 100%;
-    height: 120px;
-    background-color: brown;    
-    color: white;
-    box-shadow: 0em 0em 1em black;
-}
+
 .img-logo{
    
     width: 7%;
-    margin: 10px 20px;
+    margin: 10px 20px 30px;   
 }
-.barra-pesquisa{
-    position: absolute;
-    width: 20%;
-    height: 30%;
-    float: right;
-    top: 35%;
-    right: 40%;
-}
-.input-pesquisa{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-  
-
-   
-   
-}
-.img-pesquisa{
-    background-image: url("../img/icon-search.png");
-    background-repeat: no-repeat;
-    background-position: center left;
-    margin-left: 3px;
-    background-size: 1.3em;
-    padding-left: 1.3em;
+@keyframes girar {
+    0% {
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
 }
