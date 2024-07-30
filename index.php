@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desayuno</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="header-site">
+            <img src="img/logo.png" class="img-logo">
+
+            <div class="barra-pesquisa">
+                <label for="input-pesquisa" class="img-pesquisa" >
+                <input type="text" placeholder="Pesquisar..." name="input-pesquisa" class="input-pesquisa">
+               </label>
+            </div>
+
+         </div>
+      <?php echo "oioi"; ?>
+
+    </header>
+
+  
+
+</body>
+
+</html>
